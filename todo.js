@@ -52,7 +52,7 @@ checkBox.addEventListener("click", function () {
     li.classList.toggle("completed",checkBox.checked)
 updateCounter();
 });
-
+updateCounter();
     //edit btn
     editBtn.addEventListener("click",function () {
         const update = prompt ("Edit task:" ,  taskSpan.textContent);
